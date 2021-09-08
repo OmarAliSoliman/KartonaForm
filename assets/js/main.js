@@ -3,7 +3,7 @@ $(document).ready(function () {
 
   // AOS.init();
 
-  $('.customselect').niceSelect();
+  $(".customselect").niceSelect();
 
   if ($(".image-upload").length) {
     $(document).on("change", ".personal-img-file", function () {
@@ -28,4 +28,15 @@ $(document).ready(function () {
     });
   }
 
+  new WOW().init();
 });
+
+if ($(".circles").length) {
+  var circles = document.querySelector(".circles");
+  var parallaxInstance = new Parallax(circles);
+}
+
+if ($(".form-img").length) {
+  var formImg = document.querySelector(".form-img");
+  var parallaxInstance = new Parallax(formImg);
+}
