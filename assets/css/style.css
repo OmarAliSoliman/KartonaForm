@@ -50,9 +50,6 @@ img {
   display: inline-block;
   text-decoration: none;
 }
-.navbar-section .download .link-tag img {
-  margin-right: 5px;
-}
 .navbar-section .download .link-tag span {
   font-weight: bold;
   font-size: 12px;

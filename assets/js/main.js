@@ -40,3 +40,5 @@ if ($(".form-img").length) {
   var formImg = document.querySelector(".form-img");
   var parallaxInstance = new Parallax(formImg);
 }
+
+
